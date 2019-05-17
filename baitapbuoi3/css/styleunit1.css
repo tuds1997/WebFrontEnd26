@@ -1,0 +1,22 @@
+*{
+	text-align: center;
+}
+.dt{
+	width:130px;
+	height: 150px;
+	border:1px solid gray;
+	display: inline-block;
+	margin-right: 7px;
+}
+.dt p{
+	color: orange;
+}
+
+.dt .red{
+	color: red;
+	font-weight: bold;
+}
+.dt:hover{
+	border:2px solid orange;
+}
+

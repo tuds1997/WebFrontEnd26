@@ -1,0 +1,33 @@
+body{
+	width: 1000px;
+	height: auto;
+	margin:0 auto;
+	font-family: 'Arial';
+	font-size: 13px;
+}
+#top ul li{
+	display: inline-block;
+	margin-right: 30px;	
+}
+#top ul img{
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+#bot ul li{
+	display: inline-block;
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+#bot ul li:nth-child(3){
+	margin-left: 50px;
+}
+
+#bot ul li:nth-child(4){
+	margin-left: 30px;
+}
+
+#bot ul a:hover{
+	color: #1af2d5;
+}
