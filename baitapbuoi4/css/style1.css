@@ -1,0 +1,154 @@
+body{
+	width: 100%;
+	height: auto;
+	font-size: 13px;
+	font-family: 'Tahoma';
+	background: gray;
+}
+#header {
+	width: 100%;
+	height: 50px;
+	background: #78b43d;
+
+}
+
+#header #logo{
+	width: 100px;
+	height: 50px;
+	float: left;
+	border-right: 1px solid white;
+	position: relative;
+}
+#header #logo img{
+	width: 100px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+#header #menu ul li {
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #78b43d;
+	height: 100%;
+	line-height: 50px;
+	position: relative;
+}
+#header #menu ul li a{
+	text-decoration: none;
+	border-right: 1px solid white;
+	padding-right: 10px;
+}
+#header #menu h3{
+	height: 50px;
+	line-height: 50px;
+	margin: 0px;
+	float: left;
+	border-right: 1px solid white;
+	padding:0px 10px 0px 10px;
+}
+#header #menu h3 a{
+	text-decoration: none;
+	color: white;
+}
+#header #menu ul a{
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
+}
+
+#sub-menu3{
+	display: none;
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	color: black;
+}
+#header #menu ul li:hover #sub-menu3{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+}
+#header #menu ul li:hover #sub-menu3 a{
+	color: black;
+	border-right: none;
+}
+#header #menu ul li:hover #sub-menu3 li{
+	background: #aad862;
+}
+
+#sub-menu3 ul{
+	margin:0px;
+	padding:0px;
+	display: block;
+}
+#sub-menu3 li{
+	clear: both;
+	width: 200px;
+	border-bottom: 1px solid green;	
+}
+#logo2{
+	float: left;
+	line-height: 70px;
+	margin-left: 100px;
+}
+
+#sub-menu1{
+	display: none;
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	background: #aad862;
+	margin:0px;
+	padding: 0px;
+	color: black;
+}
+
+#header #logo:hover #sub-menu1{
+	display: block;
+	height: 40px;
+	line-height: 30px;
+	text-align: left;
+	background: #aad862;
+}
+
+#sub-menu1 li{
+	list-style: none;
+	background: #aad862;
+	border-bottom: 1px solid black;	
+	text-indent: 20px;
+
+}
+#sub-menu1 li a{
+	text-decoration: none;
+	color: black;
+}
+#header #logo #sub-menu1 li {
+	position: relative;
+}
+
+#sub-menu2{
+	display: none;
+	width: 200px;
+	position: absolute;
+	top: 5px;
+	left: 200px;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+}
+
+#sub-menu1 li:hover #sub-menu2 {
+	display: block;
+	height: 40px;
+	line-height: 30px;
+	text-align: left;
+	
+}
+#sub-menu1 li:hover #sub-menu2 li{
+	background: #78B43D;
+}
