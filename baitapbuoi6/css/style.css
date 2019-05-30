@@ -1,0 +1,248 @@
+*{
+	margin: 0px;
+	padding:0px;	
+}
+body{
+	width: 100%;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 15px;
+	position: relative;
+}
+/* RESPONSIVE*/
+@media screen
+and(min-width: 481px)
+and(max-width: 699px){
+	#content #content-width #list-content ul li{
+		width: 45%;
+		margin-right: 1.9rem;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	#content #content-width #list-content ul li{
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 700px){
+	#about-me #about-me-content #about-me-content-left, #about-me #about-me-content #about-me-content-right{
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+}
+
+
+#logo img{
+	width: 70%;
+}
+#logo{
+		position: absolute;
+		top: 0;
+		left: 45%;
+}
+.clear{
+	clear:both;
+}
+#header{
+	width: 50%;
+	margin: 0 auto;
+	min-height: 3.1rem;
+	margin-bottom: 0.6rem;
+}
+
+#content{
+	background: #f4f6f8;
+}
+
+#footer{
+	background: #9accc5;
+}
+
+/*--------HEADER----------*/
+
+#header ul {
+	text-align: center;
+}
+#header ul li:nth-child(2){
+	padding-right: 20%;
+}
+#header ul li{
+	list-style: none;
+	float: left;
+	display: block;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	margin-top: 1.2rem;
+	width: 20%;
+}
+#header ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+#header ul li a.active {
+	color: #ebebeb;
+}
+/*-----CONTENT--------*/
+
+#content{
+	width: 100%;
+	padding-bottom: 2.5rem;
+}
+
+#content-width{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#title-content{
+	text-align: center;
+	padding-top: 100px;
+	color: #45afa0;
+}
+#title-content h1{
+	font-size: 1.9rem;
+	margin-bottom: 1.2rem;
+}
+
+#title-content p{
+	color: black;
+	margin-bottom: 1.9rem;
+}
+
+#list-content ul li {
+	list-style: none;
+	display: inline-block;
+	width: 30%;
+	margin-bottom: 2.5rem;
+	margin-right: 1.4rem;
+}
+
+#list-content ul li:nth-child(3){
+	margin-right: 0rem;
+}
+#list-content ul li:nth-child(6){
+	margin-right: 0rem;
+}
+
+
+#list-content ul li img{
+	width: 100%;
+	border:0.3rem solid white;
+}
+#list-content ul li a{
+	text-decoration: none;
+	color: #45afa0;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+#list-content ul li p{
+	margin-top: 1.9rem;
+}
+
+.linka{
+	text-align: left;
+	float: left;
+}
+.fas{
+	float: right;
+}
+
+#sub-content{
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+/*------ABOUT ME-------------*/
+#about-me{
+	width: 100%;
+	padding-bottom: 2.5rem;
+}
+
+#about-me-content{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 3.1rem;
+}
+#about-me-content-left{
+	text-align: left;
+	float: left;
+	width: 70%;
+}
+#about-me-content-left h1{
+	font-size: 1.9rem;
+	margin-bottom: 0.6rem;
+	color: #45afa0;
+}
+#about-me-content-left p{
+	margin: 1.2rem 0;
+	width: 80%;
+}
+#about-me-content-left p a{
+	color: #45afa0;
+}
+
+#about-me-content-right{
+	width: 30%;
+	float: left;
+}
+#about-me-content-right h1{
+	font-size: 1.9rem;
+	margin-bottom: 10px;
+	color: #45afa0;
+}
+
+#about-me-content-right p{
+	margin: 1.2rem 0;
+}
+
+.tw , .gg , .fb , .ins{
+	width: 1.9rem;
+	height: 1.9rem;
+	border-radius: 50%;
+	color: white;
+	background: #45afa0;
+}
+
+.icon i{
+	padding-left: 0.5rem;
+	padding-top: 0.4rem;
+	font-size: 1.4rem;
+	margin-right: 1.2rem;
+}
+/*--------FOOTER-------*/
+
+#footer{
+	width: 100%;
+}
+
+#footer-content{
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+}
+
+#footer-content h1{
+	padding:2.5rem 0 0 0;
+}
+#footer-content p{
+	padding-top: 1.2rem;
+}
+
+#footer-content form p input{
+	width: 100%;
+}
+#footer-content form p textarea{
+	width: 100%;
+}
+.send{
+	background: #388b7f;
+	color: white;
+	border-color: #388b7f;
+	border-radius: 0.3rem;
+	height: 1.9rem;
+	width: 3.1rem;
+}
