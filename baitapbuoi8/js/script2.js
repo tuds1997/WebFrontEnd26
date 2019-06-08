@@ -5,7 +5,7 @@ function tinh_tong(n)
 
     while (a <= n)
     {
-        tong += a;
+        tong = tong + a;
         a++;
     }return tong;
 }

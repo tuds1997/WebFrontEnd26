@@ -1,9 +1,11 @@
-function tinh_tong(n)
-{
-    var tong = 0;
-    for(var i = 1;i<=n;i++){
-    	tong += 1/i;
-    }return tong;
+
+do{
+	var n = prompt(' nhập số n =');
+}while( n <= 0);
+var gt = 1;
+var s=0;
+for(var i = 1;i <= n;i++){
+	gt = gt*i;
+	s += i/gt;
 }
-var n = prompt("Nhập số cần tính tổng");
-alert("Tổng dãy số tới n = " + n + " là: " + tinh_tong(n));
+document.write(s);
