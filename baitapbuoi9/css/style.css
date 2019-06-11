@@ -1,0 +1,32 @@
+#unit1{
+	background: #F8D8A9;
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+	padding : 20px 20px;
+}
+
+.tab- input[type="button"]{
+	width: 60px;
+	height: 30px;
+	background: #666666;
+	border:none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+}
+.tab-  input[type="button"]:hover{
+	background: white;
+	color: black;
+	font-weight: bold;
+}
+.subtab1 , .subtab2 , .subtab3{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	font-size: 13px;
+	display: none;
+}
+.active-sub-tab1{
+	display: block;
+}
+

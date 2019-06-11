@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Unit2</title>
+	<link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+	<div class="checkbox">
+		<div class="input"><input type="checkbox" name="check" class="j"></div> <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+	</div>
+
+	<div class="checkbox">
+		<div class="input"><input type="checkbox" name="check" class="j"></div> <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+	</div>
+	<div class="checkbox">
+		<div class="input"><input type="checkbox" name="check" class="j"></div> <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+	</div>
+	
+	<div class="checkbox">
+		<div class="input"><input type="checkbox" name="check" class="j"></div> <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+	</div>
+	<div class="checkbox">
+		<div class="input"><input type="checkbox" name="check" class="j"></div> <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+	</div>
+	<div class="check">
+		<input type="button" value="Check All" onclick="checkAll()">
+		<input type="button" value="Uncheck All" onclick="unCheckAll()">
+	</div>
+	<script>
+		function checkAll(){
+			var j  = document.getElementsByClassName('j');
+			// var input = document.getElementsByTagName('input');
+			for(var i = 0; i <5;i++){
+				console.log(j[i]);
+				j[i].checked =true;
+			}
+		}
+		function unCheckAll(){
+			var j  = document.getElementsByClassName('j');
+			// var input = document.getElementsByTagName('input');
+			for(var i = 0; i <5;i++){
+				console.log(j[i]);
+				j[i].checked =false;
+			}
+		}
+
+	</script>
+</body>
+</html>

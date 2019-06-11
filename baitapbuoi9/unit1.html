@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="unit1">
+			<div class="tab-">
+				<input type="button" value="Tab 1" class="tab" onclick="tab1Function()">
+				<input type="button" value="Tab 2" class="tab" onclick="tab2Function()">
+				<input type="button" value="Tab 3" class="tab" onclick="tab3Function()">
+			</div>
+			<div class="subtab1 active-sub-tab1">
+				<h2>Section 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit ducimus officia, vitae dolore porro obcaecati. Commodi, omnis ex eaque voluptas.</p>
+			</div>
+			<div class="subtab2">
+				<h2>Section 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ex, non natus. Fugit, tempore, officiis?</p>
+			</div>
+			<div class="subtab3">
+				<h2>Section 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quaerat, odit sed ratione explicabo impedit, laboriosam cumque iure recusandae est ducimus dicta ullam modi, fugit.</p>
+			</div>
+		
+	</div>
+
+	<script>
+		function tab1Function(){
+			var subtab1 = document.getElementsByClassName('subtab1');
+			subtab1[0].style.display = 'block';
+			var subtab2 = document.getElementsByClassName('subtab2');
+			subtab2[0].style.display = 'none';
+			var subtab3 = document.getElementsByClassName('subtab3');
+			subtab3[0].style.display = 'none';
+
+	 }
+
+		function tab2Function(){
+			var subtab2 = document.getElementsByClassName('subtab2');
+			subtab2[0].style.display = 'block';
+			var subtab1 = document.getElementsByClassName('subtab1');
+			subtab1[0].style.display = 'none';
+			var subtab3 = document.getElementsByClassName('subtab3');
+			subtab3[0].style.display = 'none';
+	 }
+
+		function tab3Function(){
+			var subtab3 = document.getElementsByClassName('subtab3');
+			subtab3[0].style.display = 'block';
+			var subtab1 = document.getElementsByClassName('subtab1');
+			subtab1[0].style.display = 'none';
+			var subtab2 = document.getElementsByClassName('subtab2');
+			subtab2[0].style.display = 'none';
+	 }
+
+
+	</script>
+</body>
+</html>
