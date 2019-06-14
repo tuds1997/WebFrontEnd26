@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<div id="form">
+			<div class="name">
+				<p>Họ và tên </p>
+				<input type="text" placeholder="Nhập họ tên" id="name1"><span class="span"></span>
+			</div>
+			<div class="gioitinh" id="gt1">
+				<p>Giới tính </p>
+				<input type="radio" name="gt" >Nam
+				<input type="radio" name="gt" >Nữ
+			</div>
+			<div class="email">
+				<p>Email </p>
+				<input type="email" placeholder="Nhập Email" id="email1"><span class="span"></span>
+				
+			</div>
+			<div class="phone">
+				<p>Số điện thoại </p>
+				<input type="text" placeholder="Nhập số điện thoại" id="phone1"><span class="span"></span>
+				
+			</div>
+			<div class="password">
+				<p>Mật khẩu </p>
+				<input type="password" id="password1"><span class="span"></span>
+			
+			</div>
+			<div class="cf_password">
+				<p>Xác nhận mật khẩu </p>
+				<input type="password" id="cf_password1"><span class="span"></span>
+			</div>
+		</div>
+		<div id="button">
+			<div class="wbt1">
+				<button class="bt1">Đăng ký</button>
+			</div>
+			<div class="wbt2">
+				<button class="bt2">Xóa Trắng</button>
+			</div>
+		</div>
+	</div>
+	<script>
+		var button = document.getElementsByTagName('button')[0];
+		button.addEventListener('click', function(){
+			var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			var name = document.getElementById('name1').value;
+			var gioitinh = document.getElementById('gt1');
+			var email = document.getElementById('email1').value;
+			var phone = document.getElementById('phone1').value;
+			var password = document.getElementById('password1').value;
+			var cf_password = document.getElementById('cf_password1').value;
+			var span = document.getElementsByClassName('span');
+			if(name.length<=5){
+				span[0].innerHTML = '&nbsp Tên phải lớn hơn 5 kí tự';
+			}else{
+				span[0].innerHTML = '';
+			}
+			if(!re.test(email)){
+				span[1].innerHTML = '&nbsp email không đúng định dạng';
+			}else{
+				span[1].innerHTML = '';
+			}
+		})
+		
+
+
+	</script>
+</body>
+</html>

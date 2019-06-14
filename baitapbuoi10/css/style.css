@@ -1,0 +1,93 @@
+body{
+	background: #FAFAFA;
+}
+#container{
+	margin: 0 auto;
+	width: 80%;
+}
+#form{
+	border:2px solid black;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-top: 200px;
+	padding:30px;
+}
+.name , .gioitinh , .email , .phone , .password , .cf_password > p {
+	font-weight: bold;
+	padding-left: 5px;
+}
+/*.name p , .name input , .name span{
+	float: left;
+}
+.gioitinh p , .gioitinh input {
+	clear: left;
+	float: left;
+}
+.email p , .email input , .email span{
+	clear: left;
+	float: left;
+}*/
+.name p , .name input , .name span{
+	display: inline-block;
+}
+.gioitinh p , .gioitinh input {
+	display: inline-block;
+}
+.email p , .email input , .email span{
+	display: inline-block;
+}
+.phone p , .phone input , .phone span{
+	display: inline-block;
+}
+.password p , .password input , .password span{
+	display: inline-block;
+}
+.cf_password p , .cf_password input , .cf_password span{
+	display: inline-block;
+}
+.name input {
+	margin-left:95px;	
+	width: 300px;
+}
+.gioitinh input:nth-child(2){
+	margin-left:100px;	
+}
+.email input {
+	margin-left:120px;	
+	width: 300px;
+}
+.phone input {
+	margin-left: 71px;
+	width: 300px;
+}
+.cf_password input{
+	margin-left: 23px;
+	width: 300px;
+}
+.password input{
+	margin-left: 92px;
+	width: 300px;
+}
+#button{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.bt1 , .bt2{
+	width: 100px;
+	height: 30px;
+	color: white;
+	background: red;
+}
+.wbt1 , .wbt2 {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+}
+.span {
+	color:red;
+}
+
+
+
