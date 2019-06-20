@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.clear {
+	clear: both;
+}
+#main{
+	width: 100%;
+	height: auto;
+}
+.acc{
+	width: 60%;
+	margin: 0 auto;
+	background: #f3f3f3;
+	margin-top: 100px;
+	border:1px solid gray;
+}
+.khoi{
+	border:1px solid gray;
+}
+/*.open , .close , .noidung1 h2{
+	float: left;
+}*/
+/*.fa-plus:before{
+    content: "\f067";
+    background: green;
+    padding: 10px;
+    border-radius: 7px;
+}
+.fa-minus:before {
+    content: "\f068";
+    background: green;
+    padding: 10px;
+    border-radius: 7px;
+}*/
+.open , .close{
+	font-size: 20px;
+}/*
+.close{
+	display: none;
+}*/
+h2{
+	padding-left: 30px;
+	height: 50px;
+	padding-top: 20px;
+}
+/*.noidung1 {
+	border:1px solid gray;
+	padding:20px 0;
+	background: #3F3F3F;
+	color: white;
+}*/
+.noidung2{
+	padding-left: 43px;
+	padding-top:20px ;
+	padding-bottom: 20px;
+}
+.khoi button{
+	width: 100%;
+	text-align: left;
+}
+.khoi button:hover{
+	background: #f9f9f9;
+	cursor: pointer;
+}
+.khoi i{
+	float:left;
+	padding-right: 30px;
+	font-size: 20px;
+}
