@@ -1,0 +1,62 @@
+*{
+	margin:0;
+	padding: 0;
+	transition: all 0.5s;
+}
+#container{
+	width: 100%;
+	height: auto;
+}
+
+.content{
+	width: 40%;
+	margin: 0 auto;
+}
+.content-top{
+	width: 100%;
+	min-height: 100px;
+	background: #F44336;
+	text-align: center;
+	padding-top: 50px;
+}
+.content-top h1{
+	color: white;
+}
+.content-top input{
+	width: 70%;
+	height: 25px;
+}
+.content-top button{
+	margin:0;
+	padding:0;
+	width: 17%;
+	height: 29px;
+	box-shadow: grey 2px 2px 2px;
+}
+.content-top button:hover{
+	cursor: pointer;
+	background: green;
+	color: white;
+	font-weight: bold;
+}
+
+.content-bot{
+	width: 100%;
+	background: #EEEEEE;
+}
+.content-bot ul li{
+	height: 30px;
+	list-style: none;
+	text-indent: 45px;
+	line-height: 30px;
+}
+.content-bot ul li:hover{
+	background: #888888;
+	cursor: pointer;
+	font-weight: bold;
+}
+.x{
+	float: right;
+	line-height: 25px;
+	padding-right: 10px;
+}

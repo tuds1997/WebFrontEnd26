@@ -6,5 +6,7 @@ $(document).ready(function() {
 		$(this).next().slideToggle();
 		$('#i1').removeClass('fa fa-plus-circle');
 		$('#i1').addClass('fa fa-minus-circle');
+		
 	});
 });
+
