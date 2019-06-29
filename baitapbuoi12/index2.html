@@ -11,68 +11,63 @@
 	<div id="top">
 			<ul class="nav">
 			  <li class="nav-item">
-			    <a class="nav-link" href="#">1. Accout</a>
+			    <a class="nav-link active" href="#">1. Accout</a>
 			  </li>
 			  <li class="nav-item">
-			    <a class="nav-link" href="#">2. Profile</a>
+			    <a class="nav-link active2" href="#">2. Profile</a>
 			  </li>
 			  <li class="nav-item">
-			    <a class="nav-link" href="#">2. Warning</a>
+			    <a class="nav-link active3" href="#">2. Warning</a>
 			  <li class="nav-item">
-			    <a class="nav-link" href="#">2. Finish</a>
+			    <a class="nav-link active4" href="#">2. Finish</a>
 			  </li>
 	</div>
 <div id="main">
 	<div id="content1">
-		<div class="content active">
+		<div class="content">
 			<h3>Account Information</h3>
-			<p>Username * </p><input type="text"  placeholder="Username">
-			<p>Password * </p><input type="password"  placeholder="Password">
-			<p>Confirm Password * </p><input type="password"  placeholder="Username">
+			<p>Username * <span class="span"></span></p><input type="text"  placeholder="Username" id="username">
+			<p>Password * <span class="span"></span></p><input type="password"  placeholder="Password" id="password">
+			<p>Confirm Password * <span class="span"></span></p><input type="password"  placeholder="Username" id="cf_password">
 			<p>(*) Mandatory</p>
 		</div>
 		<div class="button">
-			<button type="button" class="btn btn-warning next">Next</button>
+			<button type="button" class="btn btn-warning next" id="next1">Next</button>
 		</div>
 	</div>
 	<div id="content2">
 		<div class="content">
 			<h3>Profile Information</h3>
-			<p>First name * </p><input type="text"  placeholder="First name">
-			<p>Last name * </p><input type="text"  placeholder="Last name">
-			<p>Email * </p><input type="email"  placeholder="Email">
-			<p>Address </p><input type="text"  placeholder="Address">
-			<p>Age (The warning step will show up if age is less than 18) * </p><input type="text"  placeholder="Address">
+			<p>First name * <span class="span"></span></p><input type="text"  placeholder="First name" id="first_name">
+			<p>Last name * <span class="span"></span></p><input type="text"  placeholder="Last name" id="last_name">
+			<p>Email * <span class="span"></span></p><input type="email"  placeholder="Email" id="email">
+			<p>Address <span class="span"></span></p><input type="text"  placeholder="Address" id="address">
+			<p>Age (The warning step will show up if age is less than 18) * <span class="span"></span></p><input type="text"  placeholder="Age" id="age">
 			<p>(*) Mandatory</p>
 		</div>
 		<div class="button">
-			<button type="button" class="btn btn-warning pre">Previous</button>
-			<button type="button" class="btn btn-warning next">Next</button>
+			<button type="button" class="btn btn-warning pre" id="pre1">Previous</button>
+			<button type="button" class="btn btn-warning next" id="next2">Next</button>
 		</div>
 	</div>
 	<div id="content3">
-		<div class="content">
-			<h3>You are to young</h3>
-			<p>Please go away</p>
+		<div class="content" id="content3-1">
 		</div>
 		<div class="button">
-			<button type="button" class="btn btn-warning pre">Previous</button>
-				<button type="button" class="btn btn-warning next">Next</button>
+			<button type="button" class="btn btn-warning pre" id="pre2">Previous</button>
+				<button type="button" class="btn btn-warning next" id="next3">Next</button>
 		</div>
 	</div>
 	<div id="content4">
 		<div class="content">
 			<h3>Terms and Conditions</h3>
-			 <input type="checkbox" class="required"> 
+			 <input type="checkbox" class="required" id="checkbox"> 
 			 <label for="acceptTerms-2">I agree with the Terms and Conditions.</label>
 		</div>
 		<div class="button">
-			 <button type="button" class="btn btn-warning pre">Previous</button>
-			<button type="button" class="btn btn-warning finish">Finish</button>
+			 <button type="button" class="btn btn-warning pre" id="pre3">Previous</button>
+			<button type="button" class="btn btn-warning finish" id="finish">Finish</button>
 		</div>
-		
-	</div>
-	<div id="bot">
 		
 	</div>
 </div>

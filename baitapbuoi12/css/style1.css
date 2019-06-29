@@ -52,12 +52,6 @@ ul li a:hover {
 	width: 200px;
 	border-radius: 2px;
 }
-#bot{
-	width: 900px;
-	margin: 0 auto;
-	margin-top: 20px;
-	text-align: right;
-}
 #content1 {
 	display: block;
 }
@@ -67,4 +61,11 @@ ul li a:hover {
 .button{
 	float: right;
 	margin-top: 20px;
+}
+.span{
+	color: red;
+}
+.active{
+	background: #2184BE;
+	color: white;
 }
